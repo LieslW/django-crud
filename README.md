@@ -1,6 +1,6 @@
-# LAB - Class 27  
+# LAB - Class 28  
 
-Project: Django Snacks  
+Project: Django CRUD  
 Author: Liesl White  
 
 ## Links and Resources
@@ -16,7 +16,7 @@ Utilized the Django library and tools.
 ```python
 
 pip install -r requirements.txt
-python django_snacks/manage.py runserver 
+python snacks_crud_project/manage.py runserver 
 
 ```
 
@@ -25,9 +25,11 @@ python django_snacks/manage.py runserver
 To run the tests:
 ```python
 
-python django_snacks/manage.py test
+python snacks_crud_project/manage.py test
 
 ```
 
 Used the Django testing tools and library. Tested whether template, home, and about were being accessed.  
+
+ 
 
