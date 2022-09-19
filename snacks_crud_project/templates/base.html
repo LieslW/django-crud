@@ -6,10 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Snacks</title>
 </head>
-<body>
-  <h1>Snacks</h1>
-  {% block content %}
+<body style="background: linear-gradient( #F1C0E8, #CFBAF0, #A3C4F3, #90DBF4); height: 100%;">
+  <h1 style="width: 100%; display: flex; justify-content: center; align-items: center"> Welcome to the Snack Page!</h1>
+  <h2 style="width: 100%; display: flex; justify-content: center; align-items: center"> You got a snack! You can create, update, and/or delete a snack as well </h2>
+  <nav style="width: 100%; display: flex; justify-content: center; align-items: center; border-style: double; border-width: 3px; border-radius: 3px;">
+    <a href="{%url 'home' %}" style="color:darkgreen; font-size: 26px; padding:10px;">Home Page</a>
+    <a href="{%url 'snack_list'%}" style="color:lightseagreen; font-size: 26px; padding:10px;">Snack List</a>
+    <a href="{%url 'snack_create'%}" style="color:yellow; font-size: 26px; padding:10px;">Add a New Snack!</a>
+  </nav>
 
-  {% endblock content %}
+  {%block content%}
+
+  {%endblock content%}
 </body>
 </html>
